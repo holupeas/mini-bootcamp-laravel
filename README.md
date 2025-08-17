@@ -28,6 +28,11 @@ git clone https://github.com/holupeas/mini-bootcamp-laravel.git
 ```
 Untuk branch `main` hanya berisi pembelajaran poin pertama, yaitu Dasar Routing.
 
+Masuk ke folder `mini-bootcamp-laravel`
+```bash
+cd mini-bootcamp-laravel
+```
+
 Install dependency dengan `composer`
 ```bash
 composer install
