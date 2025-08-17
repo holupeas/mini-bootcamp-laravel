@@ -28,7 +28,12 @@ git clone https://github.com/holupeas/mini-bootcamp-laravel.git
 ```
 Untuk branch `main` hanya berisi pembelajaran poin pertama, yaitu Dasar Routing.
 
-## Akses branch sesi lainnya
+Install dependency dengan `composer`
+```bash
+composer install
+```
+
+## Akses branch untuk sesi lainnya
 
 Untuk melihat poin pembelajaran sesi 2, buat dulu `branch` baru dengan nama:
 `sesi-2-blade-controller-database-form`
