@@ -26,3 +26,5 @@ Route::get('/dashboard', [App\Http\Controllers\DashboardController::class, 'inde
 Route::get('/mahasiswa', [App\Http\Controllers\MahasiswaController::class, 'index'])->name('mahasiswa.index');
 Route::get('/mahasiswa/create', [App\Http\Controllers\MahasiswaController::class, 'create'])->name('mahasiswa.create');
 Route::get('/mahasiswa/edit/{mahasiswa}', [App\Http\Controllers\MahasiswaController::class, 'edit'])->name('mahasiswa.edit');
+
+Route::resource('dosen', App\Http\Controllers\DosenController::class)->except(['show']);

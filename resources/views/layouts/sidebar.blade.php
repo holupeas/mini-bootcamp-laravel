@@ -55,7 +55,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="components/buttons.html">
+                                <a href="{{ route('dosen.index') }}">
                                     <span class="sub-item">Dosen</span>
                                 </a>
                             </li>
