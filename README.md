@@ -56,6 +56,12 @@ Install dependency dengan `composer`
 composer install
 ```
 
+Aktifkan server Laragon atau XAMPP, kemudian jalankan migration database
+
+```bash
+php artisan migrate
+```
+
 ## Akses branch untuk sesi lainnya
 
 ### Sesi 2 - Blade Template, Controller, Model, Database, Form
