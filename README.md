@@ -62,6 +62,14 @@ Aktifkan server Laragon atau XAMPP, kemudian jalankan migration database
 php artisan migrate
 ```
 
+Jalankan aplikasi Laravel
+
+```bash
+php artisan serve
+```
+
+Buka alamat URL `127.0.0.1:8000` pada browser
+
 ## Akses branch untuk sesi lainnya
 
 ### Sesi 2 - Blade Template, Controller, Model, Database, Form
