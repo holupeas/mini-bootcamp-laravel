@@ -15,7 +15,7 @@ Poin-poin yang dibuat pada repository ini adalah:
 -   PHP 8.1 atau 8.2 (Bisa gunakan [Laragon](https://laragon.org/download), [XAMPP 8.2](https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.2.12/))
 -   PHP 8.2 khusus Laragon ([Download PHP 8.2](https://windows.php.net/download#php-8.2)) (Bukan di install, di ekstrak)
 -   [Composer](https://getcomposer.org/download/) (Untuk install Laravel)
--   [Git Bash](https://git-scm.com/downloads) (Untuk remote GitHub) * opsional
+-   [Git Bash](https://git-scm.com/downloads) (Untuk remote GitHub) \* opsional
 -   [Visual Studio Code](https://code.visualstudio.com/)
 -   VS Code extensions: Laravel Extension Pack, PHP Intelephense, GitHub Repositories (opsional)
 
@@ -39,8 +39,15 @@ cd mini-bootcamp-laravel
 ```
 
 Copy file .env.example menjadi .env
+
 ```bash
 cp .env.example .env
+```
+
+Lakukan generate APP_KEY Laravel
+
+```bash
+php artisan key:generate
 ```
 
 Install dependency dengan `composer`
@@ -52,6 +59,7 @@ composer install
 ## Akses branch untuk sesi lainnya
 
 ### Sesi 2 - Blade Template, Controller, Model, Database, Form
+
 Untuk melihat poin pembelajaran sesi 2, buat dulu `branch` baru dengan nama:
 `sesi-2-blade-controller-database-form`
 
@@ -70,7 +78,9 @@ Lakukan pull branch (mengambil branch sesi-2)
 ```bash
 git pull origin sesi-2-blade-controller-database-form
 ```
+
 ### Sesi 3 - CRUD Lengkap
+
 Jika ingin melihat poin pembelajaran sesi 3, lakukan hal yang sama. Silahkan buat branch baru dengan nama `sesi-3-crud-lengkap`
 
 ```bash
