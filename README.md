@@ -13,11 +13,11 @@ Poin-poin yang dibuat pada repository ini adalah:
 ## Kebutuhan yang harus disiapkan
 
 -   PHP 8.1 atau 8.2 (Bisa gunakan [Laragon](https://laragon.org/download), [XAMPP 8.2](https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.2.12/))
--   PHP 8.2 khusus Laragon ([Download PHP 8.2](https://windows.php.net/download#php-8.2))
--   [Composer](https://getcomposer.org/download/)
--   [Git Bash](https://git-scm.com/downloads)
+-   PHP 8.2 khusus Laragon ([Download PHP 8.2](https://windows.php.net/download#php-8.2)) (Bukan di install, di ekstrak)
+-   [Composer](https://getcomposer.org/download/) (Untuk install Laravel)
+-   [Git Bash](https://git-scm.com/downloads) (Untuk remote GitHub) * opsional
 -   [Visual Studio Code](https://code.visualstudio.com/)
--   VS Code extensions: Laravel Extension Pack, PHP Intelephense, GitHub Repositories
+-   VS Code extensions: Laravel Extension Pack, PHP Intelephense, GitHub Repositories (opsional)
 
 ## Clone repository
 
