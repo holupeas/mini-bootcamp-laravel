@@ -38,6 +38,11 @@ Masuk ke folder `mini-bootcamp-laravel`
 cd mini-bootcamp-laravel
 ```
 
+Copy file .env.example menjadi .env
+```bash
+cp .env.example .env
+```
+
 Install dependency dengan `composer`
 
 ```bash
