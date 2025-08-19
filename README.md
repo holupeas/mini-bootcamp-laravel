@@ -59,7 +59,7 @@ composer install
 Aktifkan server Laragon atau XAMPP, kemudian jalankan migration database
 
 ```bash
-php artisan migrate
+php artisan migrate --seed
 ```
 
 Jalankan aplikasi Laravel
