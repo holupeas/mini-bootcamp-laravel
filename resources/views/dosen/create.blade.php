@@ -1,26 +1,26 @@
 @extends('layouts.backend')
 
-@section('title', 'Tambah Mahasiswa')
+@section('title', 'Tambah Dosen')
 
 @section('content')
     <div class="page-inner">
         <div class="page-header">
-            <h4 class="page-title">Tambah Mahasiswa</h4>
+            <h4 class="page-title">Tambah Dosen</h4>
         </div>
         <div class="row">
             <div class="col-lg-12">
                 <div class="card">
                     <div class="card-header">
-                        <h5>Form Tambah Mahasiswa</h5>
+                        <h5>Form Tambah Dosen</h5>
                     </div>
                     <div class="card-body">
-                        <form action="{{ route('mahasiswa.store') }}" method="POST">
+                        <form action="{{ route('dosen.store') }}" method="POST">
                             @csrf
                             <div class="form-group">
-                                <label for="nim">NIM</label>
-                                <input type="text" class="form-control" id="nim" name="nim" maxlength="10"
-                                    value="{{ old('nim') }}">
-                                @error('nim')
+                                <label for="nip">NIP</label>
+                                <input type="text" class="form-control" id="nip" name="nip" maxlength="16"
+                                    value="{{ old('nip') }}">
+                                @error('nip')
                                     <div class="text-danger">{{ $message }}</div>
                                 @enderror
                             </div>
