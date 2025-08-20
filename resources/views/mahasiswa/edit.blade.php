@@ -14,7 +14,7 @@
                         <h5>Form Edit Mahasiswa</h5>
                     </div>
                     <div class="card-body">
-                        <form action="" method="POST">
+                        <form action="{{ route('mahasiswa.update', $mahasiswa->id) }}" method="POST">
                             @csrf
                             @method('PUT')
 

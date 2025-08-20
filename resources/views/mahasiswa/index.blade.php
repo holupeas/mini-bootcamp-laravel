@@ -40,10 +40,12 @@
                                             <td>
                                                 <a href="{{ route('mahasiswa.edit', $mahasiswa->id) }}"
                                                     class="btn btn-warning">Edit</a>
-                                                <form action="#" method="POST" style="display:inline;">
+                                                <form action="{{ route('mahasiswa.destroy', $mahasiswa->id) }}"
+                                                    method="POST" style="display:inline;">
                                                     @csrf
                                                     @method('DELETE')
-                                                    <button type="submit" class="btn btn-danger">Delete</button>
+                                                    <button type="submit" class="btn btn-danger"
+                                                        onclick="return confirm('Hapus data ini?')">Delete</button>
                                                 </form>
                                             </td>
                                         </tr>

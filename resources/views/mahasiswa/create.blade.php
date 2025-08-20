@@ -14,7 +14,7 @@
                         <h5>Form Tambah Mahasiswa</h5>
                     </div>
                     <div class="card-body">
-                        <form action="" method="POST">
+                        <form action="{{ route('mahasiswa.store') }}" method="POST">
                             @csrf
                             <div class="form-group">
                                 <label for="nim">NIM</label>
